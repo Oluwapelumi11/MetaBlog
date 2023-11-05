@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/output.css">
+    <title>Single Post |METABLOG</title>
+</head>
+<body class="dark:bg-gray-900">
+     <!--beginning of navbar div  -->
+     <div class="grid grid-cols-10 h-10 text-gray-600 my-1 items-center">
+        <div class="col-span-1 dark:text-gray-200  font-normal flex items-center  ">
+            <!-- Meta Logo -->
+            <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1567 1041" width="18" height="18" class="mr-1">
+                <path id="Logo0" class="s0" d="m169.5 686.5c0 59.9 13.1 105.8 30.3 133.6 22.5 36.4 56 51.8 90.2 51.8 44.2 0 84.5-10.9 162.3-118.6 62.3-86.2 135.7-207.3 185.1-283.3l83.7-128.6c58.1-89.3 125.3-188.6 202.5-255.9 62.9-55 130.9-85.5 199.2-85.5 114.8 0 224.1 66.5 307.7 191.4 91.6 136.7 136 308.8 136 486.5 0 105.6-20.8 183.2-56.2 244.6-34.2 59.3-100.8 118.5-213 118.5v-169.1c96 0 120-88.3 120-189.3 0-144-33.6-303.8-107.5-418-52.4-81-120.4-130.5-195.2-130.5-80.8 0-145.9 61.1-219.1 169.9-38.9 57.8-78.8 128.3-123.6 207.8l-49.4 87.5c-99.1 175.9-124.2 216-173.8 282.1-86.8 115.7-161 159.6-258.7 159.6-115.8 0-189.1-50.2-234.4-125.8-37.1-61.7-55.3-142.6-55.3-234.7z"/>
+                <path id="Logo1" class="s1" d="m133.7 203.3c77.6-119.6 189.5-203.3 317.9-203.3 74.3 0 148.2 22 225.4 85.1 84.4 68.9 174.4 182.5 286.7 369.6l40.2 67.1c97.2 162 152.5 245.3 184.8 284.6 41.6 50.5 70.8 65.5 108.6 65.5 96 0 120-88.3 120-189.3l149.2-4.7c0 105.6-20.8 183.2-56.2 244.6-34.2 59.3-100.8 118.5-213 118.5-69.7 0-131.5-15.2-199.8-79.6-52.5-49.5-113.9-137.4-161.1-216.5l-140.4-234.8c-70.5-117.8-135.2-205.6-172.6-245.4-40.2-42.8-92-94.5-174.5-94.5-66.9 0-123.6 46.9-171.1 118.7z"/>
+                <path id="Logo2" class="s2" d="m448.9 170.2c-66.9 0-123.6 46.9-171.1 118.7-67.2 101.4-108.3 252.5-108.3 397.6 0 59.9 13.1 105.8 30.3 133.6l-144.2 95.1c-37.1-61.7-55.3-142.6-55.3-234.7 0-167.6 46-342.3 133.4-477.2 77.6-119.6 189.5-203.3 317.9-203.3z"/>
+            </svg>
+            <!-- End of Meta Logo  -->
+            META<span class="font-bold dark:text-white ">BLOG</span>
+        </div>
+        <ul class="col-span-5 ml-3 dark:text-gray-200 flex justify-evenly text-sm items-center font-semibold ">
+            <li>
+                <a href="" class="transition-all duration-200  hover:text-blue-500">Home </a>
+            </li>
+            <li>
+                <a href="" class="transition-all duration-200  hover:text-blue-500">Blog</a>
+            </li>
+            <li>
+                <a href="" class="transition-all duration-200  hover:text-blue-500">Single Post</a>
+            </li>
+            <li>
+                <a href="" class="transition-all duration-200  hover:text-blue-500">Pages</a>
+            </li>
+            <li>
+                <a href="" class="transition-all duration-200  hover:text-blue-500">Contact</a>
+            </li>
+        </ul>
+
+
+        <div class="col-span-4 flex justify-between px-2 gap-x-2 grid-grid-cols-4">
+            <div class="col-span-1  flex items-center bg-gray-200 dark:bg-gray-800 rounded-md">
+                <input type="text" placeholder="Search" class="text-sm h-8 border-none focus:ring-0 bg-gray-200 dark:bg-gray-800 w-4/5 rounded-md py-1  ">
+                <div class="px-1 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-3">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                      </svg>
+                </div>
+            </div>
+            <div class="relative group w-14 h-8 dark:bg-gray-800 bg-slate-200 rounded-full flex items-center ">
+                <input type="checkbox" class=" peer w-14 hidden h-8 " id="toggle"/>
+                <label for="toggle" class="w-7 h-7 bg-slate-500 rounded-full dark:bg-gray-100 peer-checked:bg-blue-500 dark:peer-checked:bg-blue-800  absolute left-0 transition-transform translate-x-0 peer-checked:translate-x-full duration-400 ease-in-out transform text-2xl text-center "></label>
+              </div>
+              
+        </div>
+    </div>
+    <!-- end of navbar div -->
+
+    <!-- Topic div -->
+    <div class="h-fit rounded-md px-4 py-4  ">
+        <p class="bg-blue-800 w-fit px-2 py-1 rounded-md text-blue-50 text-sm font-semibold  ">Technology</p>
+        <p class="font-bold my-2 text-xl dark:text-white ">
+            The Impact of Technology on 
+            the Workplace: How 
+            Technology is Changing
+        </p>
+        <div class="flex  items-center  my-2 py-2 w-3/4">
+               <div class="flex items-center mr-7 ">
+                 <img class="h-5 mr-1 w-5 rounded-full" src="./../img/man.jpg" alt="">
+
+                <p class="text-xs text-gray-400 font-medium ">Jason  Francisco </p>
+            </div>
+                <p class="text-xs text-gray-400 ">November 3, 2023</p>
+        </div>
+    </div>
+    <!-- End of topic div -->
+
+    <!-- Large Picture Box  -->
+    
+    <div clas="rounded-md h-[20rem] ">
+        <div class="h-[20rem] px-4  w-full rounded-md ">
+            <img class="w-full h-full rounded-md " src="./../img/landtech.jpg" alt="">
+        </div>
+    </div>
+
+
+    <!-- End of large picture box -->
+
+    <!-- Post text div -->
+
+    <div class="w-full py-4 px-4 text-sm dark:text-gray-400  text-center">
+        <div class="text-left  w-full ">
+            <p class=" py-2">
+                Traveling is an enriching experience that opens up new horizons, exposes us to different cultures, and creates memories that last a lifetime. However, traveling can also be stressful and overwhelming, especially if you don't plan and prepare adequately. In this blog article, we'll explore tips and tricks for a memorable journey and how to make the most of your travels.
+            </p>
+        
+            <p class="py-2">
+                One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect.
+            </p>
+            
+            <div>
+            <h3 class="dark:text-white py-2 text-base font-semibold">
+                Research Your Destination
+            </h3>
+            <p class="pb-2">
+                Before embarking on your journey, take the time to research your destination. This includes understanding the local culture, customs, and laws, as well as identifying top attractions, restaurants, and accommodations. Doing so will help you navigate your destination with confidence and avoid any cultural faux pas
+            </p>
+            <p class="py-2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi ratione rem minima nam pariatur tenetur vitae doloribus laudantium odit mollitia corrupti voluptate nihil veritatis temporibus necessitatibus ipsum, deleniti delectus sequi.
+            </p>
+            </div>
+            <div class="py-2 text-sm">
+                <h3 class="dark:text-white font-semibold py-2 text-base">
+                    Plan Your Itinerary
+                </h3>
+                <p class="pb-2">
+                    While it's essential to leave room for spontaneity and unexpected adventures, having a rough itinerary can help you make the most of your time and budget. Identify the must see sights and experiences and prioritize them according to your interests and preferences. This will help you avoid overscheduling and ensure that you have time to relax and enjoy your journey
+                </p>
+                <p class="py-2">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex in reiciendis illum error sequi explicabo cum voluptate. Recusandae porro culpa eius minima odio et tempora, quas blanditiis aut quod reprehenderit?
+                </p>
+                <div class="rounded-md grid grid-cols-5 text-center  text-gray-600 dark:text-gray-300 py-3  font-serif">
+                    <p class="bg-gray-100 shadow-md  col-span-3 col-start-2 px-4 py-4 dark:border-l-2 dark:bg-gray-900 dark:border-gray-100 border-x-2 border-gray-300">
+                    <i>
+                        "Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy."
+                    </i>
+                </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- End of Post text div -->
+
+    <!-- bottom large picture box -->
+    <div clas="rounded-md h-[20rem] ">
+        <div class="h-[20rem] px-4  w-full rounded-md ">
+            <img class="w-full h-full rounded-md " src="./../img/tech-woman.jpg" alt="">
+        </div>
+    </div>
+    <!-- End of Bottom large picture box -->
+
+    <!-- Advert Box  -->
+    <div class="mt-5 py-6 text-center  flex flex-row justify-center ">
+        <div class=" bg-gray-100 dark:bg-gray-800 w-5/6 py-2 rounded-md ">
+            <p class="text-xs font-light  text-gray-400">Advertisement</p>
+            <p class="text-sm font-bold text-gray-400">You can place ads</p>
+            <p class="text-sm font-normal text-gray-400  ">750x100</p>
+
+        </div>
+    </div>
+    <!-- end of Advert Box -->
+<!-- second posts div -->
+<div class="text-sm py-1 mb-5 px-4 dark:text-gray-400 ">
+    <h3 class="dark:text-white text-base font-semibold py-2">Pack Lightly and Smartly</h3>
+    <p class="pb-2">
+        Packing can be a daunting task, but with some careful planning and smart choices, you can pack light and efficiently. Start by making a packing list and sticking to it, focusing on versatile and comfortable clothing that can be mixed and matched. Invest in quality luggage and packing organizers to maximize space and minimize wrinkles.
+        <h3 class="dark:text-white text-base font-semibold py-2">Stay Safe and Healthy</h3>
+        <p class="pb-2">
+            Traveling can expose you to new environments and potential health risks, so it's crucial to take precautions to stay safe and healthy. This includes researching any required vaccinations or medications, staying hydrated, washing your hands frequently, and using sunscreen and insect repellent. It's also essential to keep your valuables safe and secure and to be aware of your surroundings at all times
+        </p>
+        <h3 class="dark:text-white text-base font-semibold py-2">
+            Immerse Yourself in the Local Culture
+        </h3>
+        <p class="pb-2">
+            One of the most rewarding aspects of traveling is immersing yourself in the local culture and customs. This includes trying local cuisine, attending cultural events and festivals, and interacting with locals. Learning a few phrases in the local language can also go a long way in making connections and showing respect
+        </p>
+        <h3 class="dark:text-white text-base font-semibold py-2">
+            Capture Memories
+        </h3>
+        <p class="pb-2">
+            Finally, don't forget to capture memories of your journey. Whether it's through photographs, journaling, or souvenirs, preserving the moments and experiences of your travels can bring joy and nostalgia for years to come. However, it's also essential to be present in the moment and not let technology distract you from the beauty of your surroundings.
+        </p>
+        <h3 class="dark:text-white text-base py-2 font-semibold ">
+            Conclusion
+        </h3>
+        <p class="pb-2">
+            Traveling is an art form that requires a blend of planning, preparation, and spontaneity. By following these tips and tricks, you can make the most of your journey and create memories that last a lifetime. So pack your bags, embrace the adventure, and enjoy the ride.
+        </p>
+</div>
+<!-- End of second posts div -->
+
+<!-- Footer  div  -->
+<div class="bg-gray-100 dark:bg-gray-900 border-y px-10 py-8 text-gray-500 border-gray-300 dark:border-gray-700  text-center">
+    <div class="grid grid-cols-10 gap-x-5">
+        <!-- About -->
+        <div class="col-span-3 text-left ">
+            <h1 class="font-bold text-sm py-2 dark:text-gray-100 ">About</h1>
+            <p class="text-xs ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore omnis qui ducimus saepe maiores perspiciatis dignissimos, assumenda atque corrupti veritatis, numquam nobis fugit voluptates.
+            </p>
+            <div class="text-xs py-3">
+                <p>
+                    <span class="font-bold">Email</span>: info@kodedjackson.net
+                </p>
+                <p>
+                    <span class="font-bold">Phone</span>: 234 123 456 789
+                </p>
+            </div>
+
+        </div>
+        <!-- End of About -->
+
+        <!-- Quick links -->
+        <div class="col-span-2 text-left ">
+            <h1 class="font-bold text-sm py-2 dark:text-gray-100 ">Quick Link</h1>
+            <ul class="text-xs ">
+               <p class="py-1"> <a href="#" >Home</a></p>
+               <p class="py-1"> <a href="#" >About</a></p>
+               <p class="py-1"> <a href="#" >Blog</a></p>
+               <p class="py-1"> <a href="#" >Archived</a></p>
+               <p class="py-1"> <a href="#" >Author</a></p>
+               <p class="py-1"> <a href="#" >Contact</a></p>
+            </ul>
+            
+
+        </div>
+        <!-- End of Quick Links -->
+
+        <!-- Category -->
+        <div class="col-span-1 text-left ">
+            <h1 class="font-bold text-sm py-2 dark:text-gray-100 ">Category</h1>
+            <ul class="text-xs ">
+               <p class="py-1"> <a href="#" >Lifestyle</a></p>
+               <p class="py-1"> <a href="#" >About</a></p>
+               <p class="py-1"> <a href="#" >Travel</a></p>
+               <p class="py-1"> <a href="#" >Business</a></p>
+               <p class="py-1"> <a href="#" >Economy</a></p>
+               <p class="py-1"> <a href="#" >Sports</a></p>
+            </ul>
+            
+
+        </div>
+        <!-- End of Category -->
+
+        <!-- Newsletter form -->
+        <div class="col-span-4 text-xs  ml-2 py-2 text-center ">
+            <div class="bg-white dark:bg-gray-800 rounded-md p-4">
+                <div class=" py-3">
+                    <h1 class="font-bold text-sm text-gray-600 dark:text-gray-100">Weekly Newsletter</h1>
+                    <p>Get blog articles and offers via email</p>
+                </div>
+                <form action="" method="POST"></form>
+                    <div class="flex dark:bg-gray-900 items-center border border-gray-300 dark:border-0  justify-between rounded-md">
+                        <input type="email" placeholder="Your Email" class="text-sm h-8 border-none dark:bg-gray-900 focus:ring-0  w-4/5 rounded-md py-1  ">
+                        <div class="px-1  ">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                              </svg>
+                              
+                        </div>
+                    </div>
+                    <input type="submit" value="Subscribe" class="bg-blue-600 w-full my-1 rounded-md text-blue-50 font-semibold py-2">
+            </div>
+            
+
+        </div>
+        <!-- End of Newsletter form -->
+    </div>
+
+</div>
+<!-- End of footer div -->
+
+<!-- Bottom line... after footer sha...  lol -->
+<div class="bg-gray-100 dark:bg-gray-900 py-5 flex justify-between">
+    <div class="flex items-center">
+        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1567 1041" width="30" height="25" class="mx-1 ">
+            <path id="Logo0" class="s0" d="m169.5 686.5c0 59.9 13.1 105.8 30.3 133.6 22.5 36.4 56 51.8 90.2 51.8 44.2 0 84.5-10.9 162.3-118.6 62.3-86.2 135.7-207.3 185.1-283.3l83.7-128.6c58.1-89.3 125.3-188.6 202.5-255.9 62.9-55 130.9-85.5 199.2-85.5 114.8 0 224.1 66.5 307.7 191.4 91.6 136.7 136 308.8 136 486.5 0 105.6-20.8 183.2-56.2 244.6-34.2 59.3-100.8 118.5-213 118.5v-169.1c96 0 120-88.3 120-189.3 0-144-33.6-303.8-107.5-418-52.4-81-120.4-130.5-195.2-130.5-80.8 0-145.9 61.1-219.1 169.9-38.9 57.8-78.8 128.3-123.6 207.8l-49.4 87.5c-99.1 175.9-124.2 216-173.8 282.1-86.8 115.7-161 159.6-258.7 159.6-115.8 0-189.1-50.2-234.4-125.8-37.1-61.7-55.3-142.6-55.3-234.7z"/>
+            <path id="Logo1" class="s1" d="m133.7 203.3c77.6-119.6 189.5-203.3 317.9-203.3 74.3 0 148.2 22 225.4 85.1 84.4 68.9 174.4 182.5 286.7 369.6l40.2 67.1c97.2 162 152.5 245.3 184.8 284.6 41.6 50.5 70.8 65.5 108.6 65.5 96 0 120-88.3 120-189.3l149.2-4.7c0 105.6-20.8 183.2-56.2 244.6-34.2 59.3-100.8 118.5-213 118.5-69.7 0-131.5-15.2-199.8-79.6-52.5-49.5-113.9-137.4-161.1-216.5l-140.4-234.8c-70.5-117.8-135.2-205.6-172.6-245.4-40.2-42.8-92-94.5-174.5-94.5-66.9 0-123.6 46.9-171.1 118.7z"/>
+            <path id="Logo2" class="s2" d="m448.9 170.2c-66.9 0-123.6 46.9-171.1 118.7-67.2 101.4-108.3 252.5-108.3 397.6 0 59.9 13.1 105.8 30.3 133.6l-144.2 95.1c-37.1-61.7-55.3-142.6-55.3-234.7 0-167.6 46-342.3 133.4-477.2 77.6-119.6 189.5-203.3 317.9-203.3z"/>
+        </svg>
+        <div class="text-sm dark:text-white ">
+            <p> META<span class="font-bold ">BLOG</span></p>
+            <p class="text-xs text-gray-500">&copy JS Template 2023. All Rights Reserved</p>
+            <!-- just adding to fufill all righteousness  -->
+        </div>
+    </div>
+    <div class="flex text-xs items-center text-gray-500">
+        <p>
+            <a href="" class="px-2 ">Terms of Use</a>  
+        </p>
+        <p>
+           <a href="" class="px-2 border-x border-gray-300 dark:border-gray-700 ">Privacy Policy</a>  
+        </p>
+        <p>
+            <a href="" class="px-2 ">Cookie Policy</a>  
+         </p>
+    </div>
+</div>
+<!--End of Bottom line after footer sha... lol  -->
+    
+</body>
+</html>
